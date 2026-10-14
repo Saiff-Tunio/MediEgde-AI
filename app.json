@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "MediEdge AI",
+    "slug": "mediedge-ai",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F4F7FA",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.mediedge.app", "infoPlist": { "UIFileSharingEnabled": false, "LSSupportsOpeningDocumentsInPlace": false } },
+    "android": { "package": "com.mediedge.app", "allowBackup": false },
+    "plugins": [["expo-image-picker", { "photosPermission": "Choose a medical image to keep on this device.", "cameraPermission": "Capture a medical image for your local scan library.", "microphonePermission": false }]],
+    "web": { "name": "MediEdge AI", "shortName": "MediEdge", "bundler": "metro", "favicon": "./assets/icon.png" }
+  }
+}

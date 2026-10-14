@@ -141,3 +141,15 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Expo development and generated native projects
+.expo/
+android/
+ios/
+expo-env.d.ts
+*.jks
+*.keystore
+
+# Local Android toolchain and installable build artifacts
+.android-build/
+releases/
